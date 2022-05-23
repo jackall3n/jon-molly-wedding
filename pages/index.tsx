@@ -214,17 +214,17 @@ export default function Home() {
             <div className="grid grid-cols-[100px_200px] gap-3">
 
               <label className="contents">
-                <div>Your first name</div>
+                <div className="pt-1 justify-end">Your first name</div>
                 <input className="p-1" />
               </label>
 
               <label className="contents">
-                <div>Your last name</div>
+                <div className="pt-1 justify-end">Your last name</div>
                 <input className="p-1" />
               </label>
 
               <label className="contents">
-                <div>Your message</div>
+                <div className="pt-1 justify-end">Your message</div>
                 <textarea className="min-h-[100px] p-1" />
               </label>
 
