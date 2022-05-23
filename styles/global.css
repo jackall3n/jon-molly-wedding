@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: script;
+    src: url("https://font-public.canva.com/YADpK5O5zHU/0/subsets/Shadow.7539c0876f1c28b6090ac809b53176071.f3a2cbc138c11d5b1b719ae9a33516f.woff2");
+}
+
 html, body, #__next {
     background: rgb(249, 248, 247);
 
