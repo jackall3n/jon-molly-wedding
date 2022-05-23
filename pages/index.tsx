@@ -120,7 +120,7 @@ export default function Home() {
               <span className="">Molly</span>
             </div>
 
-            <div className="-mt-2">08 . 07 . 2023</div>
+            <div className="-mt-0.5">08 . 07 . 2023</div>
 
             <div className="font-madi text-3xl mt-3">xo</div>
           </div>
