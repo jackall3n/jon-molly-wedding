@@ -223,6 +223,11 @@ export default function Home() {
                 <input className="" />
               </label>
 
+              <label className="contents">
+                <div>Your message</div>
+                <textarea className="min-h-[100px]" />
+              </label>
+
               <div className="col-span-2 flex justify-center">
                 <button className="flex-1 flex text-xl justify-center relative cursor-pointer">
                   <span>Send</span>
