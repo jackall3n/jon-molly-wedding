@@ -136,8 +136,9 @@ export default function Home() {
           <header className="mx-auto px-8 sm:px-0 sm:max-w-[75%] flex items-center justify-between font-cormorant h-20">
 
             <div className="grid grid-flow-col gap-5">
-              <NavItem title="HOME" />
+              {/*<NavItem title="HOME" />*/}
               <NavItem title="DAY" />
+              <NavItem title="VENUE" />
             </div>
 
             <div className="text-3xl flex items-center">
@@ -147,7 +148,7 @@ export default function Home() {
             </div>
 
             <div className="grid grid-flow-col gap-5">
-              <NavItem title="VENUE" />
+              <NavItem title="GIFT" />
               <NavItem title="RSVP" />
             </div>
 
@@ -198,6 +199,17 @@ export default function Home() {
               vulputate
               a mi non condimentum. Phasellus feugiat arcu vitae sodales sollicitudin. Mauris facilisis purus quis
               hendrerit feugiat. In eleifend nisl eu massa placerat mollis.
+            </div>
+
+            <div className="flex items-center justify-center min-h-[50vh]">
+              <img src={"/separator.png"} />
+            </div>
+          </div>
+
+          <div className="mx-auto px-8 sm:px-0 sm:max-w-[75%] font-cormorant">
+            <div className="text-4xl pb-10">Gifts</div>
+            <div className="">
+              If you were thinking of getting us a gift to help us on our way, <br/>a gift of money towards our honeymoon would really make our day!
             </div>
 
             <div className="flex items-center justify-center min-h-[50vh]">
