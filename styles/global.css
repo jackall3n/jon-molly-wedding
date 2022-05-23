@@ -3,7 +3,12 @@
 @tailwind utilities;
 
 html, body, #__next {
-    background: rgb(249, 248, 247)
+    background: rgb(249, 248, 247);
+
+    @apply max-w-full overflow-x-hidden;
+}
+
+#__next {
 }
 
 .bgColor {

@@ -3,6 +3,9 @@ import Head from "next/head";
 
 import "tailwindcss/tailwind.css";
 import "../styles/global.css";
+import Image from "next/image";
+import flower1 from "../public/eucalyptus_1.png";
+import flower2 from "../public/eucalyptus_2.png";
 
 
 function App({ Component, pageProps }) {
@@ -17,6 +20,49 @@ function App({ Component, pageProps }) {
           rel="stylesheet"
         />
       </Head>
+
+
+      <div className="absolute z-0 top-0 left-0 w-[500px] hidden"
+           style={{ transform: 'translate(-175px, -00px) rotate(20deg)' }}>
+        <Image src={flower2} objectFit="cover" />
+      </div>
+
+      <div className="absolute z-0 top-0 right-0 w-[300px] hidden"
+           style={{ transform: 'scaleX(1) translate(40px, 300px) rotate(-20deg)' }}>
+        <Image src={flower1} />
+      </div>
+
+
+      <div className="absolute z-0 top-0 left-0 w-[300px] hidden"
+           style={{ transform: 'translate(-60px, 400px) rotate(20deg)' }}>
+        <div style={{ transform: 'scaleX(-1)' }}>
+          <Image src={flower1} />
+        </div>
+      </div>
+
+
+      <div className="absolute z-0 top-0 left-0 w-[300px]"
+           style={{ transform: 'translate(-100px, -150px) rotate(150deg)' }}>
+        <div style={{ transform: 'scaleX(1)' }}>
+          <Image src={flower1} />
+        </div>
+      </div>
+
+      <div className="absolute z-0 top-0 right-0 w-[300px]"
+           style={{ transform: 'translate(100px, 150px) rotate(-40deg)' }}>
+        <div style={{ transform: 'scaleX(-1)' }}>
+          <Image src={flower1} />
+        </div>
+      </div>
+
+      <div className="absolute z-0 top-0 left-0"
+           style={{ transform: 'translate(-100px, 150px) rotate(-240deg)' }}>
+        <div style={{ transform: 'scaleX(1)' }} className="w-[400px]">
+          <Image src={flower2} />
+        </div>
+      </div>
+
+
       <div className="flex">
         <Component {...pageProps} />
       </div>
