@@ -112,7 +112,7 @@ export default function Home() {
         <div className="flex flex-col justify-center items-center">
 
           <div className="flex flex-col justify-center items-center font-cormorant">
-            <div className="italic tracking-wider mb-4">The Wedding of</div>
+            <div className="italic tracking-wider mb-3">The Wedding of</div>
 
             <div className="font-cormorant items-end text-gray-100 text-6xl" style={{ color: '' }}>
               <span className="">Jon</span>
@@ -120,7 +120,9 @@ export default function Home() {
               <span className="">Molly</span>
             </div>
 
-            <div className="font-madi text-3xl mt-4">xo</div>
+            <div className="-mt-2">08 . 07 . 2023</div>
+
+            <div className="font-madi text-3xl mt-3">xo</div>
           </div>
 
         </div>
