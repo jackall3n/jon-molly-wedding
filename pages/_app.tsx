@@ -21,43 +21,23 @@ function App({ Component, pageProps }) {
         />
       </Head>
 
-
-      <div className="absolute z-0 top-0 left-0 w-[500px] hidden"
-           style={{ transform: 'translate(-175px, -00px) rotate(20deg)' }}>
-        <Image src={flower2} objectFit="cover" />
-      </div>
-
-      <div className="absolute z-0 top-0 right-0 w-[300px] hidden"
-           style={{ transform: 'scaleX(1) translate(40px, 300px) rotate(-20deg)' }}>
-        <Image src={flower1} />
-      </div>
-
-
-      <div className="absolute z-0 top-0 left-0 w-[300px] hidden"
-           style={{ transform: 'translate(-60px, 400px) rotate(20deg)' }}>
-        <div style={{ transform: 'scaleX(-1)' }}>
-          <Image src={flower1} />
-        </div>
-      </div>
-
-
-      <div className="absolute z-0 top-0 left-0 w-[300px]"
+      <div className="absolute z-0 top-0 left-0 "
            style={{ transform: 'translate(-100px, -150px) rotate(150deg)' }}>
-        <div style={{ transform: 'scaleX(1)' }}>
+        <div style={{ transform: 'scaleX(1)' }} className="w-[250px] md:w-[300px]">
           <Image src={flower1} />
         </div>
       </div>
 
-      <div className="absolute z-0 top-0 right-0 w-[300px]"
+      <div className="absolute z-0 top-0 right-0"
            style={{ transform: 'translate(100px, 150px) rotate(-40deg)' }}>
-        <div style={{ transform: 'scaleX(-1)' }}>
+        <div style={{ transform: 'scaleX(-1)' }} className="w-[200px] md:w-[300px]">
           <Image src={flower1} />
         </div>
       </div>
 
       <div className="absolute z-0 top-0 left-0"
            style={{ transform: 'translate(-100px, 150px) rotate(-240deg)' }}>
-        <div style={{ transform: 'scaleX(1)' }} className="w-[400px]">
+        <div style={{ transform: 'scaleX(1)' }} className="w-[300px] md:w-[400px]">
           <Image src={flower2} />
         </div>
       </div>
