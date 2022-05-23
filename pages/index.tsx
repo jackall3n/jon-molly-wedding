@@ -131,7 +131,7 @@ export default function Home() {
       <div className="flex-1 flex-col">
 
         <div className="z-1 fixed top-0 right-0 left-0 bg-main bg-opacity-75">
-          <header className=" mx-auto px-8 sm:px-0 sm:max-w-[75%] flex items-center justify-between font-cormorant h-20">
+          <header className="mx-auto px-8 sm:px-0 sm:max-w-[75%] flex items-center justify-between font-cormorant h-20">
 
             <div className="grid grid-flow-col gap-5">
               <NavItem title="HOME" />
@@ -158,7 +158,7 @@ export default function Home() {
             <img src={"/separator.png"} />
           </div>
 
-          <div className="container mx-auto max-w-[75%] font-cormorant">
+          <div className="mx-auto px-8 sm:px-0 sm:max-w-[75%] font-cormorant">
             <div className="text-4xl pb-10">The Day</div>
             <div className="">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget ornare magna. Vivamus sollicitudin
@@ -181,7 +181,7 @@ export default function Home() {
           </div>
 
 
-          <div className="container mx-auto max-w-[75%] font-cormorant">
+          <div className="mx-auto px-8 sm:px-0 sm:max-w-[75%] font-cormorant">
             <div className="text-4xl pb-10">The Venue</div>
             <div className="">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget ornare magna. Vivamus sollicitudin
@@ -203,7 +203,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="container mx-auto max-w-[50%] font-cormorant flex flex-col items-center justify-center">
+          <div className="mx-auto px-8 sm:px-0 sm:max-w-[75%] font-cormorant flex flex-col items-center justify-center">
             <div className="text-4xl pb-10">RSVP</div>
             <div className="pb-10">
               We'd love to see you at our wedding, please let us know if you can enjoy our day with us.
