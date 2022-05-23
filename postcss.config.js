@@ -1,8 +1,11 @@
-// If you want to use other PostCSS plugins, see the following:
-// https://tailwindcss.com/docs/using-with-preprocessors
+// apps/site/postcss.config.js
+const { join } = require('path');
+
 module.exports = {
   plugins: {
-    tailwindcss: {},
+    tailwindcss: {
+      config: join(__dirname, 'tailwind.config.js'),
+    },
     autoprefixer: {},
   },
-}
+};
