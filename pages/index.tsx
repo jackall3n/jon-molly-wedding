@@ -131,7 +131,7 @@ export default function Home() {
       <div className="flex-1 flex-col">
 
         <div className="z-1 fixed top-0 right-0 left-0 bg-main bg-opacity-75">
-          <header className="container mx-auto max-w-[75%] flex items-center justify-between font-cormorant h-20">
+          <header className=" mx-auto px-8 sm:px-0 sm:max-w-[75%] flex items-center justify-between font-cormorant h-20">
 
             <div className="grid grid-flow-col gap-5">
               <NavItem title="HOME" />
