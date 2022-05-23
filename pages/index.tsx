@@ -162,7 +162,7 @@ export default function Home() {
           </div>
 
           <div className="mx-auto px-8 sm:px-0 sm:max-w-[75%] font-cormorant">
-            <div className="text-4xl pb-10">The Day</div>
+            <h2 className="text-4xl pb-10">The Day</h2>
             <div className="">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget ornare magna. Vivamus sollicitudin
               justo quis lorem finibus pharetra. Nunc malesuada interdum mi, vitae interdum lacus pulvinar quis. Aenean
@@ -185,7 +185,7 @@ export default function Home() {
 
 
           <div className="mx-auto px-8 sm:px-0 sm:max-w-[75%] font-cormorant">
-            <div className="text-4xl pb-10">The Venue</div>
+            <h2 className="text-4xl pb-10">The Venue</h2>
             <div className="">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget ornare magna. Vivamus sollicitudin
               justo quis lorem finibus pharetra. Nunc malesuada interdum mi, vitae interdum lacus pulvinar quis. Aenean
@@ -207,7 +207,7 @@ export default function Home() {
           </div>
 
           <div className="mx-auto px-8 sm:px-0 sm:max-w-[75%] font-cormorant">
-            <div className="text-4xl pb-10">Gifts</div>
+            <h2 className="text-4xl pb-10">Gifts</h2>
             <div className="">
               If you were thinking of getting us a gift <br/>to help us on our way, <br/>money towards our honeymoon <br/>would really make our day!
             </div>
@@ -218,7 +218,7 @@ export default function Home() {
           </div>
 
           <div className="mx-auto px-8 sm:px-0 sm:max-w-[75%] font-cormorant flex flex-col items-center justify-center">
-            <div className="text-4xl pb-10">RSVP</div>
+            <h2 className="text-4xl pb-10">RSVP</h2>
             <div className="pb-10">
               We'd love to see you at our wedding, please let us know if you can enjoy our day with us.
             </div>
