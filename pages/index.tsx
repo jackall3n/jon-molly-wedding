@@ -211,24 +211,24 @@ export default function Home() {
               We'd love to see you at our wedding, please let us know if you can enjoy our day with us.
             </div>
 
-            <div className="grid grid-cols-[100px_200px] gap-5">
+            <div className="grid grid-cols-[100px_200px] gap-3">
 
               <label className="contents">
                 <div>Your first name</div>
-                <input className="" />
+                <input className="p-1" />
               </label>
 
               <label className="contents">
                 <div>Your last name</div>
-                <input className="" />
+                <input className="p-1" />
               </label>
 
               <label className="contents">
                 <div>Your message</div>
-                <textarea className="min-h-[100px]" />
+                <textarea className="min-h-[100px] p-1" />
               </label>
 
-              <div className="col-span-2 flex justify-center">
+              <div className="col-span-2 flex justify-center mt-2">
                 <button className="flex-1 flex text-xl justify-center relative cursor-pointer">
                   <span>Send</span>
                   <span className="border-b border-black" />
