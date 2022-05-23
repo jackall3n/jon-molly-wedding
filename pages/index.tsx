@@ -97,14 +97,14 @@ export default function Home() {
 
         <div className="absolute bottom-0 right-0"
              style={{ transform: 'translate(50px, 0) rotate(-20deg)' }}>
-          <div style={{ transform: 'scaleX(1)' }} className="w-52 md:w-72">
+          <div style={{ transform: 'scaleX(1)' }} className="w-44 md:w-72">
             <Image src={flower1} />
           </div>
         </div>
 
         <div className="absolute top-0 right-0"
              style={{ transform: 'translate(100px, 70px) rotate(-50deg)' }}>
-          <div style={{ transform: 'scaleX(1)' }} className="w-80">
+          <div style={{ transform: 'scaleX(1)' }} className="w-72 md:w-80">
             <Image src={flower2} />
           </div>
         </div>
@@ -120,7 +120,7 @@ export default function Home() {
               <span className="">Molly</span>
             </div>
 
-            <div className="-mt-0.5">08 . 07 . 2023</div>
+            <div className="mt-2">08 . 07 . 2023</div>
 
             <div className="font-madi text-3xl mt-3">xo</div>
           </div>
