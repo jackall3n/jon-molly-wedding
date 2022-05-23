@@ -209,7 +209,7 @@ export default function Home() {
           <div className="mx-auto px-8 sm:px-0 sm:max-w-[75%] font-cormorant">
             <div className="text-4xl pb-10">Gifts</div>
             <div className="">
-              If you were thinking of getting us a gift to help us on our way, <br/>a gift of money towards our honeymoon would really make our day!
+              If you were thinking of getting us a gift <br/>to help us on our way, <br/>money towards our honeymoon <br/>would really make our day!
             </div>
 
             <div className="flex items-center justify-center min-h-[50vh]">
