@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import flower1 from "../public/eucalyptus_1.png";
 import flower2 from "../public/eucalyptus_2.png";
-import React, { useEffect, useMemo, useRef, useState } from "react";
+import React from "react";
 
 function NavItem({ title }: { title: string }) {
   return (
@@ -12,74 +12,18 @@ function NavItem({ title }: { title: string }) {
   )
 }
 
-function Draggable({ children, style, className }: React.PropsWithChildren<{ className?: string, style: any }>) {
-  const ref = useRef();
-  const [x, setX] = useState(0);
-  const [y, setY] = useState(0);
-
-  const onMouseMove = useMemo(() => {
-    return (event) => {
-
-
-      console.log('moved', event, x, y);
-    }
-  }, [])
-
-  const onRelease = useMemo(() => {
-    return (event: any) => {
-      console.log('released');
-      event.stopPropagation();
-      event.preventDefault();
-
-      setActive(false)
-    }
-  }, [])
-
-  const [active, setActive] = useState(false);
-
-  useEffect(() => {
-    if (!active) {
-      document.removeEventListener('mousemove', onMouseMove)
-      document.removeEventListener('mouseup', onRelease);
-
-      return
-    }
-
-    document.addEventListener('mousemove', onMouseMove)
-    document.addEventListener('mouseup', onRelease)
-  }, [active])
-
-  function onGrab(event: React.MouseEvent<HTMLDivElement>) {
-    console.log('grabbed', event);
-
-    setX(event.pageX);
-    setY(event.pageY);
-
-    event.stopPropagation();
-    event.preventDefault();
-
-    setActive(true)
-  }
-
-  return (
-    <div className={className} style={style} ref={ref} onMouseDown={onGrab} onMouseUp={onRelease}>
-      {children}
-    </div>
-  )
-}
-
 export default function Home() {
   return (
     <div>
 
       <div className="w-full relative min-h-[100vh] flex items-center justify-center">
 
-        <Draggable className="absolute top-0 left-0"
-                   style={{ transform: 'translate(-10px, -00px) rotate(40deg)' }}>
+        <div className="absolute top-0 left-0"
+             style={{ transform: 'translate(-10px, -00px) rotate(40deg)' }}>
           <div style={{ transform: 'scaleX(-1)' }} className="w-52 md:w-72">
             <Image src={flower1} />
           </div>
-        </Draggable>
+        </div>
 
         <div className="absolute top-0 left-0 hidden"
              style={{ transform: 'translate(-10px, -00px) rotate(40deg)' }}>
@@ -116,7 +60,7 @@ export default function Home() {
 
             <div className="font-cormorant items-end text-gray-100 text-6xl" style={{ color: '' }}>
               <span className="">Jon</span>
-              <span className="text-xl mx-3">&</span>
+              <span className="text-xl font-playfair mx-3">&</span>
               <span className="">Molly</span>
             </div>
 
@@ -209,7 +153,8 @@ export default function Home() {
           <div className="mx-auto px-8 sm:px-0 sm:max-w-[75%] font-cormorant">
             <h2 className="text-4xl pb-10">Gifts</h2>
             <div className="">
-              If you were thinking of getting us a gift <br/>to help us on our way, <br/>money towards our honeymoon <br/>would really make our day!
+              If you were thinking of getting us a gift <br />to help us on our way, <br />money towards our
+              honeymoon <br />would really make our day!
             </div>
 
             <div className="flex items-center justify-center min-h-[50vh]">

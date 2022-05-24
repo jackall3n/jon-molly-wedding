@@ -11,7 +11,8 @@ module.exports = {
         },
         fontFamily: {
             montserrat: ['Montserrat', 'sans-serif'],
-            script: ['script', 'sans-serif'],
+            playfair: ['Playfair Display SC', 'serif'],
+            script: ['script', 'serif'],
             madi: ['Ms Madi', 'sans-serif'],
             lora: ['Lora', 'serif'],
             cormorant: ['Cormorant Garamond', 'serif'],

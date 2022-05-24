@@ -16,7 +16,7 @@ function App({ Component, pageProps }) {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Ms+Madi&family=Cormorant+Garamond:wght@300;400&family=Lato:wght@100;400&family=Lora:ital@0;1&family=Montserrat:wght@300;400;500;600;700&family=Oswald&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Ms+Madi&family=Cormorant+Garamond:wght@300;400&family=Lato:wght@100;400&family=Lora:ital@0;1&family=Montserrat:wght@300;400;500;600;700&family=Oswald&display=swap"
           rel="stylesheet"
         />
 
