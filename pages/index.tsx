@@ -96,8 +96,8 @@ export default function Home() {
         </div>
 
         <div className="absolute bottom-0 right-0"
-             style={{ transform: 'translate(50px, 0) rotate(-20deg)' }}>
-          <div style={{ transform: 'scaleX(1)' }} className="w-44 md:w-72">
+             style={{ transform: 'translate(50px, 50px) rotate(-150deg)' }}>
+          <div style={{ transform: 'scaleX(-1)' }} className="w-44 md:w-72">
             <Image src={flower1} />
           </div>
         </div>
